@@ -13,6 +13,7 @@ export class ServersComponent implements OnInit {
 	serverCreationStatus = 'server was not created';
 	serverName = 'TestName';
 	serverCreated = false;
+	servers = ["apache","nginx"];
   constructor() {
   	setTimeout(() => {
   		this.allowNewServer = true;
@@ -25,7 +26,8 @@ export class ServersComponent implements OnInit {
   }
  
  onCreateStatus() {
- this.serverCreated = true;
+ 	this.serverCreated = true;
+ 	this.servers.push(this.serverName);
  	this.serverCreationStatus = 'the server was created'  + this.serverName ;
  }
 
