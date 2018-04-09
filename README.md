@@ -17,12 +17,19 @@ $ ng g c servers
 		component name
 
 
+DataBinding:
+---------- 
+communication bitween the typescripts code of components or business logic or template code
 
-		
+
+string interpolation {{data}}
+property binding [ [property]="data" ]
 
 
+React to user events
+Event Binding [ (event)="expression"]
 
-
+two way Binding [(ngModule)] = "data"
 
 
 
