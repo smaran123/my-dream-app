@@ -32,6 +32,8 @@ Event Binding [ (event)="expression"]
 two way Binding [(ngModule)] = "data"
 
 
+Directives are instructions in the DOM
+
 
 
 
