@@ -10,8 +10,15 @@ $ npm install --save bootstrap
 
 
 
+creating components using terminal:
+
+$ ng g c servers
+			|
+		component name
 
 
+
+		
 
 
 
